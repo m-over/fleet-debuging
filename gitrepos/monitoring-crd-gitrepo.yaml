@@ -5,7 +5,7 @@ metadata:
   name: monitoring-crd
   namespace: fleet-default
 spec:
-  branch: master
+  branch: main
   paths:
   - /apps/monitoring-crd
   repo: https://github.com/m-over/fleet-debuging.git

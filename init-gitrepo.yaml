@@ -5,7 +5,7 @@ metadata:
   name: fleet-config
   namespace: fleet-local
 spec:
-  branch: master
+  branch: main
   paths:
   - /gitrepos
   repo: https://github.com/m-over/fleet-debuging.git
