@@ -1,0 +1,12 @@
+---
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: fleet-config
+  namespace: fleet-local
+spec:
+  branch: master
+  paths:
+  - /gitrepos
+  repo: https://github.com/m-over/fleet-debuging.git
+  targets: []
